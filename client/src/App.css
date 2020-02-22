@@ -17,6 +17,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+
 }
 
 .App-link {
@@ -30,4 +31,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.dark-btn {
+	margin-bottom: 50px;
+}
+
+.dark-mode {
+	color: #fff;
+	background-color: #1e232b;
+}
+
+button {
+  background-color: white;
+  color: black;
+  border: 2px solid #000000;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+button:hover {
+  background-color: #1e232b;
+  color: white;
+  transition-duration: 0.4s;
 }
